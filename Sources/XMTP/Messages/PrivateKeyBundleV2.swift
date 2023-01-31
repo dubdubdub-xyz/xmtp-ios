@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import secp256k1
+import secp256k1XMTP
 import XMTPProto
 
 public typealias PrivateKeyBundleV2 = Xmtp_MessageContents_PrivateKeyBundleV2

@@ -29,7 +29,7 @@ let package = Package(
 			name: "XMTP",
 			dependencies: [
 				.product(name: "XMTPProto", package: "proto"),
-				.product(name: "secp256k1", package: "secp256k1.swift"),
+				.product(name: "secp256k1", package: "secp256k1.swift, moduleAliases: ["secp256k1": "secp256k1XMTP"]"),
 				"web3.swift",
 				.product(name: "Gzip", package: "GzipSwift"),
 			]

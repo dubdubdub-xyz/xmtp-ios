@@ -7,7 +7,7 @@
 
 import Foundation
 
-import secp256k1
+import secp256k1XMTP
 import XCTest
 @testable import XMTP
 

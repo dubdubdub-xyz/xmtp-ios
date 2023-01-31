@@ -4,7 +4,7 @@
 //
 import Foundation
 import Logging
-import secp256k1
+import secp256k1XMTP
 import web3
 
 enum KeyUtilError: Error {

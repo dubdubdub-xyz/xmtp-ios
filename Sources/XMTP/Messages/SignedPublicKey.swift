@@ -7,7 +7,7 @@
 
 import CryptoKit
 import Foundation
-import secp256k1
+import secp256k1XMTP
 import XMTPProto
 
 typealias SignedPublicKey = Xmtp_MessageContents_SignedPublicKey
